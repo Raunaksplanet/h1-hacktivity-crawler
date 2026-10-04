@@ -1,0 +1,15 @@
+# Fetched data (can be large, keep out of git)
+data.jsonl
+data.csv
+data*.jsonl
+data*.csv
+
+# Secrets and local config
+.env
+.env.*
+
+# Python caches and venvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
